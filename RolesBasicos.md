@@ -318,10 +318,12 @@ El desarrollador Backend maneja la lógica del servidor, bases de datos, APIs y 
 El ingeniero de QA asegura la calidad del software mediante pruebas sistemáticas, identificación de bugs y validación de requisitos funcionales y no funcionales.
 
 ### Tipos de QA
+- *QA Funcional*: Pruebas exploratorias y casos de prueba manuales
 - *QA Manual*: Pruebas exploratorias y casos de prueba manuales
 - *QA Automatizado*: Scripts de automatización y CI/CD integration
 - *Performance Testing*: Pruebas de carga y rendimiento
 - *Security Testing*: Pruebas de vulnerabilidades
+- *Compatibility Testing*: Pruebas de vulnerabilidades
 
 ### Habilidades Requeridas
 - *Técnicas*:
@@ -337,6 +339,32 @@ El ingeniero de QA asegura la calidad del software mediante pruebas sistemática
   - Defect lifecycle management
   - Risk assessment
   - Agile/Scrum methodologies
+
+### Relación con otros roles
+
+####  Con el Front-end Developer
+- El QA verifica la correcta funcionalidad y visualización de la interfaz.
+- Reporta errores en botones, formularios, estilos, navegación o usabilidad.
+- Colabora en pruebas de compatibilidad con distintos navegadores y resoluciones.
+
+####  Con el Back-end Developer
+- Prueba las APIs, respuestas del servidor y lógica de negocio.
+- Detecta errores como códigos de estado incorrectos o fallas en la validación.
+- Usa herramientas como Postman o Swagger para hacer pruebas manuales o automatizadas.
+
+####  Con el Desarrollador Android
+- Valida el funcionamiento de la app en diferentes versiones de Android y dispositivos.
+- Verifica flujos móviles, permisos, rendimiento y cierre inesperado de pantallas.
+- Reporta errores visuales o de comportamiento propios del entorno móvil.
+
+####  Flujo de trabajo con el equipo
+1. QA revisa los requerimientos antes de que empiece el desarrollo.
+2. Recibe las versiones de front-end, back-end o Android.
+3. Ejecuta pruebas manuales y/o automatizadas.
+4. Reporta bugs con evidencia clara (pasos, capturas, logs).
+5. Verifica los arreglos y hace pruebas de regresión.
+
+> El QA actúa como un puente entre el desarrollo y el usuario final, asegurando que todo funcione correctamente antes de salir a producción.
 
 ### Responsabilidades en el Proyecto
 - *Planificación*: Crear estrategias y planes de prueba
