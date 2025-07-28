@@ -254,3 +254,86 @@ El desarrollador Backend maneja la lógica del servidor, bases de datos, APIs y 
   - Resolución de problemas complejos
   - Capacidad de optimización
   - Trabajo en equipo distribuido
+### Stack Tecnológico Backend
+
+#### Lenguajes Principales
+- *Python*: Django, Flask, FastAPI
+- *JavaScript/Node.js*: Express.js, Nest.js
+- *Java*: Spring Boot, Spring Framework
+- *C#*: ASP.NET Core, .NET Framework
+- *Go*: Gin, Echo, Fiber
+- *PHP*: Laravel, Symfony
+
+#### Bases de Datos
+- *Relacionales*: MySQL, PostgreSQL, SQLite
+- *NoSQL*: MongoDB, CouchDB, Cassandra
+- *Cache*: Redis, Memcached
+- *Search*: Elasticsearch, Solr
+
+#### Herramientas y Servicios
+- *Contenedores*: Docker, Podman
+- *Orquestación*: Kubernetes, Docker Swarm
+- *Message Queues*: RabbitMQ, Apache Kafka
+- *Monitoring*: Prometheus, Grafana, ELK Stack
+
+## 7) Links Recomendados para Capacitación Backend
+
+### 🔹 *Sin Certificaciones*
+- *freeCodeCamp Backend*: https://www.freecodecamp.org/learn/back-end-development-and-apis/
+- *FastAPI Tutorial*: https://fastapi.tiangolo.com/tutorial/
+- *Node.js Guide*: https://nodejs.org/en/learn/getting-started/introduction-to-nodejs
+
+### 🔹 *Con Certificación*
+- *Meta Backend Developer*: https://www.coursera.org/professional-certificates/meta-back-end-developer
+- *AWS Certified Developer*: https://aws.amazon.com/certification/certified-developer-associate/
+- *Microsoft Azure Developer*: https://docs.microsoft.com/en-us/learn/certifications/azure-developer/
+
+### 🔹 *Proyectos Completos*
+- *REST API Tutorial*: https://github.com/microsoft/api-guidelines
+- *Microservices Patterns*: https://microservices.io/patterns/
+- *System Design Primer*: https://github.com/donnemartin/system-design-primer
+
+## 8) Rol QA (Quality Assurance)
+
+### Descripción del Rol
+El ingeniero de QA asegura la calidad del software mediante pruebas sistemáticas, identificación de bugs y validación de requisitos funcionales y no funcionales.
+
+### Tipos de QA
+- *QA Manual*: Pruebas exploratorias y casos de prueba manuales
+- *QA Automatizado*: Scripts de automatización y CI/CD integration
+- *Performance Testing*: Pruebas de carga y rendimiento
+- *Security Testing*: Pruebas de vulnerabilidades
+
+### Habilidades Requeridas
+- *Técnicas*:
+  - Testing frameworks: Selenium, Cypress, Playwright
+  - API Testing: Postman, Newman, REST Assured
+  - Performance: JMeter, LoadRunner, K6
+  - Mobile Testing: Appium, Espresso, XCTest
+  - Bug tracking: Jira, Azure DevOps, Linear
+  - Programming: Python, JavaScript, Java
+
+- *Metodológicas*:
+  - Test case design y execution
+  - Defect lifecycle management
+  - Risk assessment
+  - Agile/Scrum methodologies
+
+### Responsabilidades en el Proyecto
+- *Planificación*: Crear estrategias y planes de prueba
+- *Ejecución*: Realizar pruebas manuales y automatizadas
+- *Reporte*: Documentar bugs y métricas de calidad
+- *Automatización*: Desarrollar scripts de prueba
+- *Colaboración*: Trabajar con developers para resolver issues
+
+## 9) Links Recomendados para Capacitación QA
+
+### 🔹 *Sin Certificaciones*
+- *Coding Temple QA Program*: https://www.codingtemple.com/free-courses/quality-assurance/
+- *GURU99 Testing Tutorial*: https://www.guru99.com/software-testing.html
+- *Test Automation University*: https://testautomationu.applitools.com/
+
+### 🔹 *Con Certificación*
+- *ISTQB Foundation Level*: https://www.istqb.org/
+- *Selenium WebDriver*: https://www.selenium.dev/documentation/
+- *Postman Student Expert*: https://academy.postman.com/ 
