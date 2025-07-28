@@ -506,3 +506,74 @@ feature/documentation
 git checkout -b feature/mi-funcionalidad
 
 # 2. Hacer cambios y commits
+git add .
+git commit -m "feat: implementar nueva funcionalidad"
+
+# 3. Push a GitHub
+git push origin feature/mi-funcionalidad
+
+# 4. Crear Pull Request en GitHub
+# 5. Code Review por 2 miembros del equipo
+# 6. Merge después de aprobación
+```
+
+## 📋 Cronograma del Proyecto (8 semanas)
+
+| Semana | Fase | Responsables | Entregables |
+|--------|------|-------------|-------------|
+| 1-2 | **Setup y Fundamentos** | Todos | Configuración de herramientas, Git/GitHub |
+| 3-4 | **Diseño y Arquitectura** | UI/UX, Backend leads | Wireframes, API design, DB schema |
+| 5-6 | **Desarrollo Core** | Frontend, Backend, Android | MVP funcional |
+| 7 | **Testing e Integración** | QA, DevOps | Testing suite, CI/CD |
+| 8 | **Deploy y Documentación** | Todos | Aplicación desplegada, documentación |
+
+## 🛠 Herramientas de Colaboración
+
+### Comunicación
+- **Slack/Discord**: Chat diario del equipo
+- **Google Meet**: Reuniones semanales
+- **GitHub Discussions**: Decisiones técnicas
+
+### Gestión de Proyecto
+- **GitHub Projects**: Kanban board
+- **GitHub Issues**: Tracking de tareas y bugs
+- **GitHub Milestones**: Hitos del proyecto
+
+### Documentación
+- **README.md**: Información general del proyecto
+- **Wiki**: Documentación técnica detallada
+- **ADRs**: Architecture Decision Records
+
+## 📚 Recursos Adicionales
+
+### Libros Recomendados
+- **"Clean Code"** by Robert Martin
+- **"System Design Interview"** by Alex Xu
+- **"You Don't Know JS"** series
+- **"Android Programming"** by Big Nerd Ranch
+
+### Newsletters y Blogs
+- **Frontend**: CSS-Tricks, Smashing Magazine
+- **Backend**: InfoQ, High Scalability
+- **Mobile**: Android Developers Blog
+- **QA**: Ministry of Testing, Test Automation Patterns
+
+### Conferencias y Eventos
+- **Frontend**: JSConf, React Conf
+- **Backend**: DockerCon, KubeCon
+- **Mobile**: Google I/O, Android Dev Summit
+- **QA**: SeleniumConf, Agile Testing Days
+
+---
+
+## 🎯 Objetivos de Aprendizaje
+
+Al finalizar este estudio, cada miembro del equipo habrá:
+
+1. **Comprendido** los roles y responsabilidades en desarrollo de software
+2. **Practicado** con las herramientas y tecnologías de su área
+3. **Colaborado** efectivamente usando Git/GitHub
+4. **Desarrollado** un proyecto completo de principio a fin
+5. **Documentado** su experiencia y aprendizajes
+
+---
