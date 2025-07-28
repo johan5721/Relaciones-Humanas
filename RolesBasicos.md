@@ -273,6 +273,28 @@ El desarrollador Backend maneja la lógica del servidor, bases de datos, APIs y 
 - *Message Queues*: RabbitMQ, Apache Kafka
 - *Monitoring*: Prometheus, Grafana, ELK Stack
 
+### Aportes Específicos del Rol Backend en el Proyecto
+
+#### Tareas asignadas específicas
+-	Diseñar e implementar API RESTful usando Node.js + Express o Python + FastAPI
+-	Modelar y crear base de datos (MySQL o MongoDB) según el esquema definido
+-	Desarrollar middleware para autenticación (JWT, OAuth2)
+-	Configurar control de acceso y seguridad (CORS, validaciones, encriptación de contraseñas)
+-	Testeo de endpoints usando Postman y automatización con Jest o Pytest
+-	Documentar APIs usando Swagger/OpenAPI
+
+#### Buenas Prácticas aplicadas
+-	Arquitectura limpia (separación por capas)
+-	Versionado de endpoints (v1, v2, etc.)
+-	Validación de datos con Joi / Pydantic
+-	Código modular y reutilizable
+-	Logging de errores y uso de herramientas como Winston o Loguru
+
+#### Integración con el equipo
+-	*Frontend Web/Android¨*: definir contratos claros de API y tiempos de respuesta
+-	*QA*: facilitar entorno de pruebas (mock data, instrucciones para testing de endpoints)
+-	*DevOps/Product Owner*: aportar en decisiones sobre despliegue backend (Docker, CI/CD)
+
 ## 7) Links Recomendados para Capacitación Backend
 
 ### 🔹 *Sin Certificaciones*
