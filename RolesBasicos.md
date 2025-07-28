@@ -171,3 +171,86 @@ El desarrollador Frontend es responsable de crear la interfaz de usuario y la ex
   - Comunicación efectiva
   - Adaptabilidad a nuevas tecnologías
   
+### Relación con otros Roles
+
+```mermaid
+graph LR
+    F[Frontend Developer] --> B[Backend Developer]
+    F --> U[UI/UX Designer]
+    F --> Q[QA Tester]
+    F --> A[Android Developer]
+    
+    F -->|APIs y datos| B
+    F -->|Implementa diseños| U
+    F -->|Entrega para testing| Q
+    F -->|Comparte componentes| A
+```
+
+- **Con Backend**: Consume APIs y servicios web
+- **Con UI/UX**: Implementa diseños y mockups
+- **Con QA**: Entrega funcionalidades para testing
+- **Con Android**: Comparte lógica de negocio y componentes
+
+### Stack Tecnológico Frontend
+
+#### Lenguajes Base
+- **HTML5**: Estructura semántica
+- **CSS3**: Estilos y animaciones
+- **JavaScript**: Lógica e interactividad
+- **TypeScript**: JavaScript tipado
+
+#### Frameworks y Librerías
+- **React**: Librería para UI basada en componentes
+- **Vue.js**: Framework progresivo
+- **Angular**: Framework completo con TypeScript
+- **Svelte**: Compilador de componentes
+
+#### Herramientas de Desarrollo
+- **Bundlers**: Webpack, Vite, Rollup
+- **CSS Frameworks**: Bootstrap, Tailwind CSS, Material UI
+- **State Management**: Redux, Vuex, Zustand
+- **Testing**: Jest, Vitest, Playwright
+
+## 5) Links Recomendados para Capacitación Frontend
+
+### 🔹 **Sin Certificaciones (Gratuitos)**
+- **freeCodeCamp**: https://www.freecodecamp.org/learn/responsive-web-design/
+- **MDN Web Docs**: https://developer.mozilla.org/es/docs/Learn
+- **The Odin Project**: https://www.theodinproject.com/
+- **Frontend Masters Bootcamp**: https://frontendmasters.com/bootcamp/
+
+### 🔹 **Con Certificación**
+- **Meta Frontend Developer** (Coursera): https://www.coursera.org/professional-certificates/meta-front-end-developer
+- **Google UX Design Certificate**: https://www.coursera.org/professional-certificates/google-ux-design
+- **Frontend Web Developer** (edX): https://www.edx.org/learn/front-end-software-engineering
+
+### 🔹 **Proyectos Completos de Ejemplo**
+- **30 Days of JavaScript**: https://github.com/Asabeneh/30-Days-Of-JavaScript
+- **Frontend Mentor**: https://www.frontendmentor.io/
+- **100 Days CSS Challenge**: https://100dayscss.com/
+
+### 🔹 **Recomendadas por Líderes Tech**
+- **React Official Tutorial**: https://react.dev/learn
+- **Vue.js Guide**: https://vuejs.org/guide/
+- **Angular Tutorial**: https://angular.dev/tutorials
+
+## 6) Desarrollador Backend
+
+### Descripción del Rol
+El desarrollador Backend maneja la lógica del servidor, bases de datos, APIs y la infraestructura que soporta las aplicaciones web y móviles.
+
+### Habilidades Requeridas
+- **Técnicas**:
+  - Lenguajes: Python, Java, Node.js, C#, PHP, Go
+  - Frameworks: Django, Spring Boot, Express.js, ASP.NET
+  - Bases de datos: MySQL, PostgreSQL, MongoDB, Redis
+  - APIs: REST, GraphQL, gRPC
+  - Cloud: AWS, Azure, Google Cloud
+  - DevOps: Docker, Kubernetes, CI/CD
+  - Seguridad: OAuth, JWT, HTTPS, SQL Injection prevention
+
+- **Blandas**:
+  - Pensamiento lógico y algorítmico
+  - Resolución de problemas complejos
+  - Capacidad de optimización
+  - Trabajo en equipo distribuido
