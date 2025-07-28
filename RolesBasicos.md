@@ -445,12 +445,7 @@ gitGraph
 # Visibilidad: Private (para el equipo)
 ```
 
-### 2. Configuración de Colaboradores
-**En GitHub**:
-1. Ir a Settings ⚙️ > Collaborators and teams
-2. Click en "Add people"
-3. Invitar usando GitHub username o email
-4. Asignar permisos: "Write" para todos los miembros
+
 
 ### 3. Clonación y Setup Local
 **Todos los compañeros**:
