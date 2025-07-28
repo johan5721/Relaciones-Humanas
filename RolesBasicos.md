@@ -12,11 +12,11 @@ https://docs.github.com/es/get-started/start-your-journey/git-and-github-learnin
 | 2  | JALA/PARICANAZA, Ronald David | rjala@unsa.edu.pe | Frontend Android Developer | @ronald-0112 |
 | 3  | APAZA/QUISPE, Gian Franco | gapazaqui@unsa.edu.pe | Backend Developer | @j3an31 |
 | 4  | MEZA/ROMERO, Osmeyer Eddu | osmeyer@unsa.edu.pe | Backend Developer | @Eddu-105 |
-| 7  | VALENCIA/VILCAS, Jose Carlos | jose@unsa.edu.pe | QA Manual/Functional | @jose |
-| 8  | ARCANO/GONZALES, Edgard Darick | edgard@unsa.edu.pe | QA Automation/API | @edgard |
-| 10 | VICENTE/MEDINA, Eder Lucio | evicentem@unsa.edu.pe | QA Support | @evicente3 |
-| 11 | YUCRA/TICONA, Johan Jeremy | jyucrat@unsa.edu.pe | QA Support | @johan5721 |
-| 12 | CAVERO/ALE, Leonardo Ismael | lcavero@unsa.edu.pe | Frontend Support | @Leo-Bv-1 |
+| 5  | CALCINA LAYME, Alexis Steven | acalcinala@unsa.edu.pe | QA Manual/Functional | @Alexis |
+| 6  | ARCANO/GONZALES, Edgard Darick | edgard@unsa.edu.pe | QA Automation/API | @edgard |
+| 7 | VICENTE/MEDINA, Eder Lucio | evicentem@unsa.edu.pe | QA Support | @evicente3 |
+| 8 | YUCRA/TICONA, Johan Jeremy | jyucrat@unsa.edu.pe | QA Support | @johan5721 |
+| 9 | CAVERO/ALE, Leonardo Ismael | lcavero@unsa.edu.pe | Frontend Support | @Leo-Bv-1 |
 
 ## 1) Conceptos Generales para tener en cuenta
 
