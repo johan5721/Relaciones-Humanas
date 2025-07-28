@@ -11,7 +11,7 @@ https://docs.github.com/es/get-started/start-your-journey/git-and-github-learnin
 | 1  | ACHIRI/CUEVAS, Daniel Cooper | dachiri@unsa.edu.pe | Backend Developer | @AchiriXD |
 | 2  | JALA/PARICANAZA, Ronald David | rjala@unsa.edu.pe | Frontend Android Developer | @ronald-0112 |
 | 3  | APAZA/QUISPE, Gian Franco | gapazaqui@unsa.edu.pe | Backend Developer | @j3an31 |
-| 4  | MEZA/ROMERO, Osmeyer Eddu | osmeyer@unsa.edu.pe | Backend Developer | @Eddu-105 |
+| 4  | MEZA/ROMERO, Osmeyer Eddu | omezaro@unsa.edu.pe | Backend Developer | @Eddu-105 |
 | 5  | CALCINA LAYME, Alexis Steven | acalcinala@unsa.edu.pe | QA Manual/Functional | @Alexis |
 | 6  | ARCANO/GONZALES, Edgard Darick | edgard@unsa.edu.pe | QA Automation/API | @edgard |
 | 7 | VICENTE/MEDINA, Eder Lucio | evicentem@unsa.edu.pe | QA Support | @evicente3 |
