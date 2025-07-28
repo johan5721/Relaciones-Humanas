@@ -82,3 +82,92 @@ graph LR
     click E2 "https://timespro.com/blog/android-developer-job-description"
     click E3 "https://appetiser.com.au/blog/android-app-development-tools/"
 ```
+
+**Librerías**: Conjunto de funciones que el desarrollador puede usar cuando las necesite.
+**Frameworks**: Estructura que define cómo se debe organizar y escribir el código.
+**Patrones de Diseño**: Soluciones arquitectónicas probadas para problemas recurrentes.
+
+## 2) Conociendo Git
+
+### ¿Qué es Git?
+Git es un sistema de control de versiones distribuido que permite:
+
+- **Versionado local**: Rastrea cambios en archivos y directorios
+- **Historial completo**: Mantiene registro de todas las modificaciones
+- **Branching**: Permite trabajar en características paralelas
+- **Rollback**: Posibilidad de volver a versiones anteriores
+
+### Comandos Git Esenciales
+```bash
+# Configuración inicial
+git config --global user.name "Tu Nombre"
+git config --global user.email "tu@email.com"
+
+# Operaciones básicas
+git init                    # Inicializar repositorio
+git add .                   # Agregar archivos al staging
+git commit -m "mensaje"     # Confirmar cambios
+git status                  # Ver estado de archivos
+git log                     # Ver historial de commits
+
+# Branching
+git branch                  # Listar ramas
+git checkout -b nueva-rama  # Crear y cambiar a nueva rama
+git merge rama              # Fusionar rama
+```
+
+## 3) Conociendo GitHub
+
+### Repositorio Remoto
+GitHub es una plataforma que aloja repositorios Git en la nube, permitiendo:
+
+- **Colaboración**: Múltiples desarrolladores trabajando juntos
+- **Backup**: Respaldo automático del código
+- **Integración**: CI/CD, issues, pull requests
+- **Documentación**: README, wikis, páginas
+
+### Configuración de Colaboración
+
+```mermaid
+sequenceDiagram
+    participant O as Owner
+    participant C as Collaborator
+    participant R as Repository
+    
+    O->>R: Create repository
+    O->>C: Send invitation (Settings > Collaborators)
+    C->>C: Accept invitation via email
+    C->>R: git clone https://github.com/owner/repo
+    C->>R: git push origin branch
+    O->>R: Review pull request
+    O->>R: Merge changes
+```
+
+### Supervisión de Conflictos
+- **Pull antes de Push**: Siempre actualizar antes de subir cambios
+- **Branching Strategy**: Usar ramas para características específicas
+- **Code Review**: Revisar cambios mediante Pull Requests
+- **Merge conflicts**: Resolver manualmente cuando sea necesario
+
+## 4) Desarrollador Frontend
+
+### Descripción del Rol
+El desarrollador Frontend es responsable de crear la interfaz de usuario y la experiencia del usuario en aplicaciones web. Se enfoca en todo lo que el usuario ve e interactúa directamente.
+
+### Habilidades Requeridas
+- **Técnicas**:
+  - HTML5, CSS3, JavaScript (ES6+)
+  - Frameworks: React, Vue.js, Angular
+  - Preprocesadores CSS: Sass, Less
+  - Build tools: Webpack, Vite, Parcel
+  - Control de versiones: Git
+  - Responsive Design y Mobile-first
+  - Accesibilidad web (WCAG)
+  - Testing: Jest, Cypress, Testing Library
+
+- **Blandas**:
+  - Atención al detalle visual
+  - Colaboración con diseñadores UX/UI
+  - Comunicación efectiva
+  - Adaptabilidad a nuevas tecnologías
+  
