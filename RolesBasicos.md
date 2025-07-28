@@ -420,3 +420,89 @@ gitGraph
     checkout frontend
     commit id: "UI components"
     commit id: "API integration"
+
+    checkout main
+    branch backend
+    commit id: "Database schema"
+    commit id: "REST APIs"
+    
+    checkout main
+    branch mobile
+    commit id: "Android setup"
+    commit id: "Mobile UI"
+    
+    checkout main
+    merge frontend
+    merge backend
+    merge mobile
+    commit id: "Integration testing"
+    commit id: "Production deploy"
+```
+
+### 1. Configuración Inicial del Repositorio
+**Integrante 0 (Product Owner)**:
+```bash
+# Crear repositorio remoto en GitHub
+# Nombre: EstudioRolesBasicos
+# Descripción: Proyecto de aprendizaje para roles en desarrollo web y móvil
+# Visibilidad: Private (para el equipo)
+```
+
+### 2. Configuración de Colaboradores
+**En GitHub**:
+1. Ir a Settings ⚙️ > Collaborators and teams
+2. Click en "Add people"
+3. Invitar usando GitHub username o email
+4. Asignar permisos: "Write" para todos los miembros
+
+### 3. Clonación y Setup Local
+**Todos los compañeros**:
+```bash
+# Crear directorio de trabajo
+mkdir desarrollo-web-movil
+cd desarrollo-web-movil
+
+# Clonar repositorio
+git clone https://github.com/jjuarez29/EstudioRolesBasicos.git
+cd EstudioRolesBasicos
+
+# Verificar contenido
+ls -la  # Linux/Mac
+dir     # Windows
+
+# Configurar Git local
+git config user.name "Tu Nombre"
+git config user.email "tu@email.com"
+```
+
+### 4. Estructura de Branches
+```bash
+# Branch principal
+main
+
+# Branches por funcionalidad
+feature/frontend-web
+feature/frontend-android  
+feature/backend-api
+feature/qa-automation
+feature/documentation
+```
+
+### 5. Metodología de Trabajo
+
+#### Sprint Planning (Semanal)
+- **Lunes**: Planning meeting (1 hora)
+- **Miércoles**: Mid-sprint check (30 min)
+- **Viernes**: Sprint review y retrospectiva (1 hora)
+
+#### Daily Standups (15 min)
+- ¿Qué hice ayer?
+- ¿Qué haré hoy?
+- ¿Hay algún impedimento?
+
+#### Pull Request Workflow
+```bash
+# 1. Crear feature branch
+git checkout -b feature/mi-funcionalidad
+
+# 2. Hacer cambios y commits
