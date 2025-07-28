@@ -336,4 +336,87 @@ El ingeniero de QA asegura la calidad del software mediante pruebas sistemática
 ### 🔹 *Con Certificación*
 - *ISTQB Foundation Level*: https://www.istqb.org/
 - *Selenium WebDriver*: https://www.selenium.dev/documentation/
-- *Postman Student Expert*: https://academy.postman.com/ 
+- *Postman Student Expert*: https://academy.postman.com/
+
+### 🔹 **Herramientas Prácticas**
+- **Cypress Real Examples**: https://example.cypress.io/
+- **API Testing with Postman**: https://learning.postman.com/
+- **Performance Testing Guide**: https://jmeter.apache.org/usermanual/
+
+## 10) Desarrollador Android
+
+### Descripción del Rol
+Desarrolla aplicaciones móviles nativas para dispositivos Android, enfocándose en la experiencia móvil y las capacidades específicas del sistema operativo.
+
+### Arquitectura Android
+
+```mermaid
+graph TD
+    A[Android App] --> B[Activities/Fragments]
+    A --> C[Services]
+    A --> D[Broadcast Receivers]
+    A --> E[Content Providers]
+    
+    B --> F[UI Components]
+    C --> G[Background Tasks]
+    D --> H[System Events]
+    E --> I[Data Sharing]
+    
+    F --> J[Views/ViewGroups]
+    F --> K[Jetpack Compose]
+```
+
+### Habilidades Requeridas
+- **Lenguajes**: Kotlin (preferido), Java
+- **Android SDK**: Activities, Services, Fragments
+- **UI**: XML layouts, Jetpack Compose
+- **Architecture**: MVVM, MVP, Clean Architecture
+- **Libraries**: Retrofit, Room, Dagger/Hilt
+- **Testing**: JUnit, Espresso, Mockito
+- **Tools**: Android Studio, Gradle, ADB
+
+### Componentes Principales
+- **Activities**: Pantallas de la aplicación
+- **Fragments**: Porciones reutilizables de UI
+- **Services**: Operaciones en background
+- **Broadcast Receivers**: Respuesta a eventos del sistema
+- **Content Providers**: Compartir datos entre apps
+
+### Jetpack Compose vs Views Tradicionales
+
+| Característica | Views XML | Jetpack Compose |
+|---|---|---|
+| **Paradigma** | Imperativo | Declarativo |
+| **Código** | XML + Kotlin/Java | Solo Kotlin |
+| **Performance** | Buena | Optimizada |
+| **Curva de aprendizaje** | Tradicional | Moderna |
+| **Futuro** | Mantenimiento | Desarrollo activo |
+
+## 11) Links Recomendados para Capacitación Android
+
+### 🔹 **Oficiales de Google**
+- **Android Basics with Compose**: https://developer.android.com/courses/android-basics-compose/course
+- **Android Developer Guides**: https://developer.android.com/guide
+- **Google Codelabs**: https://developers.google.com/codelabs
+
+### 🔹 **Cursos Estructurados**
+- **Meta Android Developer**: https://www.coursera.org/professional-certificates/meta-android-developer
+- **Android Development for Beginners**: https://www.udacity.com/course/android-development-for-beginners--ud837
+- **Kotlin Bootcamp**: https://developer.android.com/courses/kotlin-bootcamp/overview
+
+### 🔹 **Recursos Avanzados**
+- **Architecture Samples**: https://github.com/android/architecture-samples
+- **Jetpack Compose Samples**: https://github.com/android/compose-samples
+- **Android Testing Samples**: https://github.com/android/testing-samples
+
+## 12) Pasos a Desarrollar
+
+### Flujo de Trabajo del Proyecto
+
+```mermaid
+gitGraph
+    commit id: "Initial setup"
+    branch frontend
+    checkout frontend
+    commit id: "UI components"
+    commit id: "API integration"
